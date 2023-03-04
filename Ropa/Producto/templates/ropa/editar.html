@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block titulo %} Editar Ropa {% endblock %}
+
+{% block contenido %} 
+
+<div class="card">
+    <div class="card-header">
+        Editar Ropa
+    </div>
+    <div class="card-body">
+        <h4 class="card-title">Datos de la ropa</h4>
+    {% include 'ropa/form.html' %}
+
+    </div>
+    <div class="card-footer text-muted">
+        
+    </div>
+</div>
+
+{% endblock %}
